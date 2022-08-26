@@ -1,4 +1,4 @@
-package televisores;
+package taller3.televisores;
 
 public class Control {
 	private TV tv;
