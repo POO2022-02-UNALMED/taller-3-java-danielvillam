@@ -93,13 +93,13 @@ public class TV {
 	}
 	
 	public void volumenUp() {
-		if(volumen>=0 && canal<7 && estado==true) {
+		if(volumen>=0 && volumen<7 && estado==true) {
 			volumen++;
 		}
 	}
 	
 	public void volumenDown() {
-		if(canal<=7 && canal>0 && estado==true) {
+		if(volumen<=7 && volumen>0 && estado==true) {
 			volumen--;
 		}
 	}
